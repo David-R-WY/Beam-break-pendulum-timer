@@ -1,6 +1,6 @@
 # Beam-break-pendulum-timer
 
-This sketch will:
+This sketch runs on an Arduino Uno R3 and will:
 1) use a TT Electronics OPB901W55Z beam break photo sensor from Digikey to detect the swings of a pendulum
 2) read environmental data from a MS8607 pressure, humidity & temperature sensor
 3) output the data to the screen and also log it to an SD card on an ADAfruit data logging shield
