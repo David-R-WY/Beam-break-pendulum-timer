@@ -48,7 +48,7 @@ float error_s = 0;  // error of this swing
 void setup() {
   Wire.begin();
   Serial.begin(9600);
-  Serial.println(F("Adafruit pendulum and MS8607 PHT logging test!"));
+  Serial.println(F("Pendulum timing and environmental data logging"));
 
   pinMode(photoSensorPin, INPUT_PULLUP);  // HIGH when NOT blocked
 
